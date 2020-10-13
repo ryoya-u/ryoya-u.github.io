@@ -1,0 +1,587 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.con {
+  width: 70%;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #301f1b;
+}
+
+body {
+  background-image: url(img/back.jpg);
+  background-attachment: fixed;
+}
+// ナブバー
+.nav {
+  padding: 10px 0px;
+  .nav-content {
+    margin: 0 auto;
+    width: 60%;
+  }
+  ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 0px;
+}
+li {
+  text-align: center;
+  a {
+    color: #301f1b;
+  }
+  .menu-kata {
+    font-size: 11px;
+  }
+  .menu-en {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  }
+}
+
+
+// トップコンテンツ
+.top-content {
+  background-image: url(img/header.jpg);
+  background-position: center;
+  padding: 40px 0px;
+}
+.top-title img {
+  width: 100%;
+}
+.top-content-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+
+  .top-content-bottom-item {
+    width: 50%;
+    img {
+      width: 80%;
+    }
+    p {
+      color: #ffffff;
+      font-size: 15px;
+      letter-spacing: -2px;
+      text-align:justify;
+    }
+  }
+  .top-content-bottom-item-right {
+    padding-left: 150px;
+  }
+}
+.top-btn {
+  position: relative;
+  top: 25px;
+  float: right;
+ a {
+   font-size: 13px;
+   letter-spacing: -1px;
+   text-decoration: none;
+   color: #ffffff;
+   background-color: #C63205;
+   padding: 10px 15px;
+ }
+}
+
+
+// イントロダクション
+.introduction {
+  margin-top: 50px;
+  .introduction-content {
+    background-color: rgba(255,255,255,0.3);
+    padding: 40px 0px;
+  }
+  .introduction-title {
+    h2 {
+      font-size: 30px;
+    }
+    .introduction-title-h2 {
+      letter-spacing: -2px;
+      font-size: 25px;
+    }
+  }
+  .introduction-content-under {
+    display: flex;
+    padding: 0 35px;
+
+    .introduction-content-item {
+      width: 50%;
+      padding: 0 15px;
+      p {
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: -2px;
+      }
+    }
+  }
+}
+
+// ニュース
+.news {
+  padding: 60px 0px;
+
+  .news-content-top {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    .news-content-top-item-left {
+      margin-left: 0px;
+    }
+    .news-content-top-item-right {
+      margin-right: 0px;
+    }
+
+    .news-content-top-item {
+      width: 30%;
+      height: 300px;
+      display: flex;
+  
+      position: relative;
+  
+      img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        vertical-align: right;
+      }
+      .news-content-top-item-text {
+        width: 97%;
+        background-color: #ffffff;
+        position: absolute;
+        bottom: 0px;
+        
+        height: 90px;
+        padding: 5px 5px;
+  
+        .news-data {
+          color: #999;
+          font-size: 15px;
+        }
+        .news-title {
+          font-weight: bold;
+          font-size: 19px;
+          letter-spacing: -1px;
+        }
+      }
+    }
+  }
+
+  .news-content-under {
+    display: flex;
+    margin-top: 25px;
+
+    .news-content-under-item-left {
+      margin-left: 0px;
+    }
+    .news-content-under-item-right {
+      margin-right: 0px;
+    }
+
+    .news-content-under-item {
+      display: flex;
+      justify-content: flex-start;
+      width: 48%;
+      height: 130px;
+
+      .news-content-under-item-img {
+        width: 40%;
+
+        img {
+          width: 100%;
+          height: 130px;
+          vertical-align: bottom;
+          object-fit: cover;
+        }
+      }
+      .news-content-under-item-text {
+        width: 60%;
+        height: 130px;
+        background-color: #ffffff;
+        padding: 15px 20px;
+        box-sizing: border-box;
+
+        .news-data {
+          color: #999;
+          font-size: 13px;
+        }
+        .news-title {
+          font-weight: bold;
+          font-size: 16px;
+          letter-spacing: -1px;
+        }
+      }
+    }
+  }
+
+  .news-btn {
+    position: relative;
+    top: -30px;
+    text-align: right;
+    a {
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: -1px;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #C63205;
+      padding: 10px 15px;
+    }
+  }
+}
+
+// ストーリー
+.story {
+  padding: 50px 0px;
+  background-image: url(img/story1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color:rgba(0,0,0,0.9);
+  background-blend-mode:lighten;
+  position: relative;
+
+  color: #ffffff;
+
+  h2 {
+    color: #ffffff;
+  }
+  .story-content {
+    display: flex;
+    justify-content: flex-end;
+    .story-text {
+      width: 50%;
+
+      p {
+        margin-top: 15px;
+        font-size: 15px;
+        letter-spacing: -2px;
+      }
+    }
+  }
+  .story-btn {
+    margin-top: 15px;
+    text-align: right;
+
+    a {
+      font-size: 13px;
+      letter-spacing: -1px;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #C63205;
+      padding: 10px 15px;
+    }
+  }
+}
+
+
+// コメント
+.comment {
+  margin-top: 50px;
+  h3 {
+    text-align: center;
+    color: #301f1b;
+  }
+  .comment-content-under {
+    background-image: url(img/comment01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color:rgba(0,0,0,0.9);
+    background-blend-mode:lighten;
+
+    color: white;
+    padding: 40px 40px;
+    margin-top: 30px;
+
+    .comment-content-under-p {
+      font-size: 20px;
+
+      span {
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 15px;
+      }
+    }
+    p {
+      margin-top: 20px;
+      font-size: 17px;
+      letter-spacing: -2px;
+    }
+    .comment-btn {
+      text-align: right;
+
+      a {
+        font-size: 13px;
+        letter-spacing: -1px;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #C63205;
+        padding: 10px 15px;
+      }
+    }
+  }
+}
+
+
+// キャスト
+.cast {
+  padding-bottom: 50px;
+  h2 {
+    margin-top: 130px;
+  }
+
+  .cast-content-under {
+    background-color: #ffffff;
+    margin-top: 150px;
+    padding-bottom: 55px;
+
+    .cast-container {
+      display: flex;
+      justify-content: space-between;
+      width: 70%;
+      margin: 0 auto;
+    }
+    .cast-content-under-item {
+      width: 30%;
+      position: relative;
+
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .cast-img {
+        position: absolute;
+        top: -120px;
+        left: 51%;
+        transform: translateX(-50%);
+      }
+      .cast-nationality {
+        margin-top: 100px;
+        font-size: 13px;
+        text-align: center;
+      }
+      .cast-name {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+      }
+      .cast-job {
+        font-size: 13px;
+        text-align: center;
+        letter-spacing: -2px;
+      }
+      .cast-content-under-item-text {
+        text-align:justify;
+        margin-top: 30px;
+        letter-spacing: -2px;
+      }
+    }
+  }
+  .cast-btn {
+    text-align: center;
+    margin-top: 25px;
+    display: block;;
+    
+    a {
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: -1px;
+      text-decoration: none;
+      color: #C63205;
+      padding: 5px 10px;
+      border: 4px solid #C63205;
+    }
+  }
+
+}
+
+// スケジュール
+.schedule {
+  padding-top: 70px;
+  padding-bottom: 60px;
+
+  .schedule-content-under {
+    background-color: rgba(255,255,255,0.3);
+    margin-top: 25px;
+    padding: 25px 0px;
+
+    p {
+      text-align: center;
+      font-size: 20px;
+      margin: 10px 0px;
+      color: #292b2c;
+
+      span {
+        a {
+          color: #292b2c;
+        }
+      }
+    }
+  }
+  .schedule-btn {
+    text-align: center;
+    margin-top: 30px;
+
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: -2px;
+      color: #ffffff;
+      padding: 5px 10px;
+      margin: 0px 5px;
+    }
+    .schedule-btn-left {
+      background-color: #603813;
+    }
+    .schedule-btn-right {
+      background-color: #C63205;
+    }
+  }
+}
+
+// お祭り
+.festival {
+  background-color: #ffffff;
+  padding: 30px 0px;
+  .fes-content {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+
+    .fes-content-item {
+      img {
+        width: 80%;
+        height: auto;
+      }
+      p {
+        font-size: 0.8em;
+        color: #333;
+        margin-top: 20px;
+
+        a {
+          color: #292b2c;
+        }
+      }
+    }
+  }
+}
+
+// フッター
+.footer {
+  background-color: #161616;
+  padding: 25px 0px;
+  p {
+    text-align: center;
+    color: white;
+    font-size: 13px;
+  }
+}
+
+
+
+
+// レスポンシブ
+@media screen and (max-width: 1024px) {
+  /*画面サイズが1024pxからはここを読み込む*/
+  .con {
+    width: 90%;
+  }
+  .news-content-top-item-text {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*画面サイズが768pxから1024pxまではここを読み込む*/
+  .con {
+    width: 70%;
+  }
+  .introduction-content-under {
+    display: block;
+  }
+
+  .cast {
+    padding-bottom: 50px;
+    h2 {
+      margin-top: 130px;
+    }
+  
+    .cast-content-under {
+      background-color: #ffffff;
+      margin-top: 150px;
+      padding-bottom: 55px;
+  
+      .cast-container {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+      }
+      .cast-content-under-item {
+        width: 100%;
+        position: relative;
+  
+  
+        img {
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+        .cast-img {
+          position: absolute;
+          top: -120px;
+          left: 51%;
+          transform: translateX(-50%);
+        }
+        .cast-nationality {
+          margin-top: 100px;
+          font-size: 13px;
+          text-align: center;
+        }
+        .cast-name {
+          font-size: 25px;
+          font-weight: bold;
+          text-align: center;
+        }
+        .cast-job {
+          font-size: 13px;
+          text-align: center;
+          letter-spacing: -2px;
+        }
+        .cast-content-under-item-text {
+          text-align:justify;
+          margin-top: 30px;
+          letter-spacing: -2px;
+        }
+      }
+    }
+    .cast-btn {
+      text-align: center;
+      margin-top: 25px;
+      display: block;;
+      
+      a {
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: -1px;
+        text-decoration: none;
+        color: #C63205;
+        padding: 5px 10px;
+        border: 4px solid #C63205;
+      }
+    }
+  
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*画面サイズが480pxからはここを読み込む*/
+  
+}

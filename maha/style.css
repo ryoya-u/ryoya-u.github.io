@@ -1,0 +1,638 @@
+@charset "UTF-8";
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.con {
+  width: 70%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #301f1b;
+}
+
+body {
+  background-image: url(img/back.jpg);
+  background-attachment: fixed;
+}
+
+.nav {
+  padding: 10px 0px;
+}
+
+.nav .nav-content {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.nav li {
+  text-align: center;
+}
+
+.nav li a {
+  color: #301f1b;
+}
+
+.nav li .menu-kata {
+  font-size: 11px;
+}
+
+.nav li .menu-en {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.top-content {
+  background-image: url(img/header.jpg);
+  background-position: center;
+  padding: 40px 0px;
+}
+
+.top-title img {
+  width: 100%;
+}
+
+.top-content-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 15px;
+}
+
+.top-content-bottom .top-content-bottom-item {
+  width: 50%;
+}
+
+.top-content-bottom .top-content-bottom-item img {
+  width: 80%;
+}
+
+.top-content-bottom .top-content-bottom-item p {
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: -2px;
+  text-align: justify;
+}
+
+.top-content-bottom .top-content-bottom-item-right {
+  padding-left: 150px;
+}
+
+.top-btn {
+  position: relative;
+  top: 25px;
+  float: right;
+}
+
+.top-btn a {
+  font-size: 13px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #C63205;
+  padding: 10px 15px;
+}
+
+.introduction {
+  margin-top: 50px;
+}
+
+.introduction .introduction-content {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 40px 0px;
+}
+
+.introduction .introduction-title h2 {
+  font-size: 30px;
+}
+
+.introduction .introduction-title .introduction-title-h2 {
+  letter-spacing: -2px;
+  font-size: 25px;
+}
+
+.introduction .introduction-content-under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 35px;
+}
+
+.introduction .introduction-content-under .introduction-content-item {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.introduction .introduction-content-under .introduction-content-item p {
+  margin-top: 15px;
+  font-size: 15px;
+  letter-spacing: -2px;
+}
+
+.news {
+  padding: 60px 0px;
+}
+
+.news .news-content-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+}
+
+.news .news-content-top .news-content-top-item-left {
+  margin-left: 0px;
+}
+
+.news .news-content-top .news-content-top-item-right {
+  margin-right: 0px;
+}
+
+.news .news-content-top .news-content-top-item {
+  width: 30%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.news .news-content-top .news-content-top-item img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: right;
+}
+
+.news .news-content-top .news-content-top-item .news-content-top-item-text {
+  width: 97%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+  height: 90px;
+  padding: 5px 5px;
+}
+
+.news .news-content-top .news-content-top-item .news-content-top-item-text .news-data {
+  color: #999;
+  font-size: 15px;
+}
+
+.news .news-content-top .news-content-top-item .news-content-top-item-text .news-title {
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: -1px;
+}
+
+.news .news-content-under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+
+.news .news-content-under .news-content-under-item-left {
+  margin-left: 0px;
+}
+
+.news .news-content-under .news-content-under-item-right {
+  margin-right: 0px;
+}
+
+.news .news-content-under .news-content-under-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 48%;
+  height: 130px;
+}
+
+.news .news-content-under .news-content-under-item .news-content-under-item-img {
+  width: 40%;
+}
+
+.news .news-content-under .news-content-under-item .news-content-under-item-img img {
+  width: 100%;
+  height: 130px;
+  vertical-align: bottom;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news .news-content-under .news-content-under-item .news-content-under-item-text {
+  width: 60%;
+  height: 130px;
+  background-color: #ffffff;
+  padding: 15px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .news-content-under .news-content-under-item .news-content-under-item-text .news-data {
+  color: #999;
+  font-size: 13px;
+}
+
+.news .news-content-under .news-content-under-item .news-content-under-item-text .news-title {
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+
+.news .news-btn {
+  position: relative;
+  top: -30px;
+  text-align: right;
+}
+
+.news .news-btn a {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #C63205;
+  padding: 10px 15px;
+}
+
+.story {
+  padding: 50px 0px;
+  background-image: url(img/story1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-blend-mode: lighten;
+  position: relative;
+  color: #ffffff;
+}
+
+.story h2 {
+  color: #ffffff;
+}
+
+.story .story-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.story .story-content .story-text {
+  width: 50%;
+}
+
+.story .story-content .story-text p {
+  margin-top: 15px;
+  font-size: 15px;
+  letter-spacing: -2px;
+}
+
+.story .story-btn {
+  margin-top: 15px;
+  text-align: right;
+}
+
+.story .story-btn a {
+  font-size: 13px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #C63205;
+  padding: 10px 15px;
+}
+
+.comment {
+  margin-top: 50px;
+}
+
+.comment h3 {
+  text-align: center;
+  color: #301f1b;
+}
+
+.comment .comment-content-under {
+  background-image: url(img/comment01.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.9);
+  background-blend-mode: lighten;
+  color: white;
+  padding: 40px 40px;
+  margin-top: 30px;
+}
+
+.comment .comment-content-under .comment-content-under-p {
+  font-size: 20px;
+}
+
+.comment .comment-content-under .comment-content-under-p span {
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 15px;
+}
+
+.comment .comment-content-under p {
+  margin-top: 20px;
+  font-size: 17px;
+  letter-spacing: -2px;
+}
+
+.comment .comment-content-under .comment-btn {
+  text-align: right;
+}
+
+.comment .comment-content-under .comment-btn a {
+  font-size: 13px;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #C63205;
+  padding: 10px 15px;
+}
+
+.cast {
+  padding-bottom: 50px;
+}
+
+.cast h2 {
+  margin-top: 130px;
+}
+
+.cast .cast-content-under {
+  background-color: #ffffff;
+  margin-top: 150px;
+  padding-bottom: 55px;
+}
+
+.cast .cast-content-under .cast-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.cast .cast-content-under .cast-content-under-item {
+  width: 30%;
+  position: relative;
+}
+
+.cast .cast-content-under .cast-content-under-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cast .cast-content-under .cast-content-under-item .cast-img {
+  position: absolute;
+  top: -120px;
+  left: 51%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.cast .cast-content-under .cast-content-under-item .cast-nationality {
+  margin-top: 100px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.cast .cast-content-under .cast-content-under-item .cast-name {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cast .cast-content-under .cast-content-under-item .cast-job {
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+.cast .cast-content-under .cast-content-under-item .cast-content-under-item-text {
+  text-align: justify;
+  margin-top: 30px;
+  letter-spacing: -2px;
+}
+
+.cast .cast-btn {
+  text-align: center;
+  margin-top: 25px;
+  display: block;
+}
+
+.cast .cast-btn a {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  text-decoration: none;
+  color: #C63205;
+  padding: 5px 10px;
+  border: 4px solid #C63205;
+}
+
+.schedule {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.schedule .schedule-content-under {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 25px;
+  padding: 25px 0px;
+}
+
+.schedule .schedule-content-under p {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 0px;
+  color: #292b2c;
+}
+
+.schedule .schedule-content-under p span a {
+  color: #292b2c;
+}
+
+.schedule .schedule-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.schedule .schedule-btn a {
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
+
+.schedule .schedule-btn .schedule-btn-left {
+  background-color: #603813;
+}
+
+.schedule .schedule-btn .schedule-btn-right {
+  background-color: #C63205;
+}
+
+.festival {
+  background-color: #ffffff;
+  padding: 30px 0px;
+}
+
+.festival .fes-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.festival .fes-content .fes-content-item img {
+  width: 80%;
+  height: auto;
+}
+
+.festival .fes-content .fes-content-item p {
+  font-size: 0.8em;
+  color: #333;
+  margin-top: 20px;
+}
+
+.festival .fes-content .fes-content-item p a {
+  color: #292b2c;
+}
+
+.footer {
+  background-color: #161616;
+  padding: 25px 0px;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1024px) {
+  /*画面サイズが1024pxからはここを読み込む*/
+  .con {
+    width: 90%;
+  }
+  .news-content-top-item-text {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*画面サイズが768pxから1024pxまではここを読み込む*/
+  .con {
+    width: 70%;
+  }
+  .introduction-content-under {
+    display: block;
+  }
+  .cast {
+    padding-bottom: 50px;
+  }
+  .cast h2 {
+    margin-top: 130px;
+  }
+  .cast .cast-content-under {
+    background-color: #ffffff;
+    margin-top: 150px;
+    padding-bottom: 55px;
+  }
+  .cast .cast-content-under .cast-container {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cast .cast-content-under .cast-content-under-item {
+    width: 100%;
+    position: relative;
+  }
+  .cast .cast-content-under .cast-content-under-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .cast .cast-content-under .cast-content-under-item .cast-img {
+    position: absolute;
+    top: -120px;
+    left: 51%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .cast .cast-content-under .cast-content-under-item .cast-nationality {
+    margin-top: 100px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .cast .cast-content-under .cast-content-under-item .cast-name {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .cast .cast-content-under .cast-content-under-item .cast-job {
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+  .cast .cast-content-under .cast-content-under-item .cast-content-under-item-text {
+    text-align: justify;
+    margin-top: 30px;
+    letter-spacing: -2px;
+  }
+  .cast .cast-btn {
+    text-align: center;
+    margin-top: 25px;
+    display: block;
+  }
+  .cast .cast-btn a {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: #C63205;
+    padding: 5px 10px;
+    border: 4px solid #C63205;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*画面サイズが480pxからはここを読み込む*/
+}
+/*# sourceMappingURL=style.css.map */
